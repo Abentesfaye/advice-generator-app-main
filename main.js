@@ -8,6 +8,8 @@ const getAdvice = async () =>{
     return data;
 };
 
+/*some commet */
+
 getAdvice().then(data => {
     advice.innerText = data.slip.advice;
     number.innerText = " ADVICE #"+data.slip.id;
